@@ -2,7 +2,7 @@
 
 {% block content %}
   <main class="hero-container">
-    <img src="img/ferris.png" class= "w-full object-cover object-center max-w-[500px] mx-auto">
+    <img src="img/ferris.png" class= "ferris-logo">
     <div class="hero-text-container">
       <h1 class="hero-title">¡La comunidad de Rust en Mexico esta
       creciendo!</h1>
@@ -65,7 +65,7 @@
     <div class="our-projects-title-container">
       <span class="our-projects-title">Nuestros Proyectos</span>
     </div>
-    <div class="repo-list">
+    <div class="repo-list grid-cols-3">
       {% for i in [1, 2, 3, 4, 5] %}
       <a href="https://github.com/rustmx/book" class="repository">
         <h2 class="repository__name">book</h2>
